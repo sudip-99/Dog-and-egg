@@ -232,7 +232,7 @@ function fallEgg() {
   gravity += 0.1
 }
 function animate() {
-  if (!gameClose && score < 20) {
+  if (!gameClose && score < 100) {
     requestAnimationFrame (animate)
   } else alert ("GAME OVER\n(The pink dog seems to have collected more than 2 eggs)\nSWIPE DOWN TO RESTART")
   ctx.drawImage (background_img,
